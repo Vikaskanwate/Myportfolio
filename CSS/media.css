@@ -1,0 +1,30 @@
+@media (min-width:768px) {
+    main header .header-bottom .btn span   {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main header .header-bottom .img-wrapper  {
+        width: 30vw;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    main header .header-bottom .img-wrapper {
+        width: 20vw;
+    }
+}
+@media (max-width:426px){
+    body{
+        position: relative;
+    }
+    main header .header-bottom .btn-effect::after{
+        display: none;
+    }
+    main header .header-bottom .btn{
+        z-index: -9;
+    }
+    main header .header-bottom .btn-effect span {
+        display: block;
+        z-index: -9;
+    }
+}

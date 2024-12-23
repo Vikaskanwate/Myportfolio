@@ -1,0 +1,17 @@
+.proje-btn{
+    width: fit-content;
+    padding: 1vh 2.5vh;
+    border-radius: 20px;
+    border: 1px solid rgb(0,0,0,.5);
+}
+
+#projects .col-md-4 {
+    height: 300px;
+}
+
+#projects .col-md-4 img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,50 @@
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+/* 
+.main-page  {
+    margin-top: 10vh !important;
+} */
+
+.main-page .b-b  {
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: aquamarine;
+    transition: all 0.4s ease,color .4s ease,background-color .4s ease,all .4s ease !important;
+}
+.main-page .b-b:active{
+    transform: scale(1.2) !important;
+    background-color: aliceblue;
+}
+.main-page .b-b:hover {
+    color: #000000;
+}
+
+.main-page .skill,.main-page .skill .card,.main-page .Education,.main-page .Education .card{
+    transition: all 0.4s ease;
+}
+.main-page .skill:hover,.skill:active {
+    transform: scale(1.05);
+}
+
+.main-page .Education:hover {
+    transform: scale(1.05);
+}
+
+.main-page .skill .card:hover,.main-page .Education:hover .card {
+    background-color: lightseagreen;
+}
+
+.main-page .skill4 {
+    display: none;
+}
+
+
+@media (max-width:600px) {
+    .main-page .skill .skill4{
+        display: block !important;
+    }
+    .main-page .skill .last-skill{
+        display: none;
+    }
+}

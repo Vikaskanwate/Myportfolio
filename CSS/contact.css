@@ -1,0 +1,42 @@
+body {
+  margin-top: 5vw;
+}
+
+.contact-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  transition: all .4s ease;
+}
+.contact-section:hover {
+  background-color: lightseagreen;
+}
+
+.social-icons a {
+  margin-right: 30px;
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.form-control-icon {
+  position: relative;
+}
+
+.form-control-icon input {
+  padding-left: 35px;
+}
+
+.form-control-icon i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+  color: #6c757d;
+}
+
+
