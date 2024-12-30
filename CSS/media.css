@@ -1,9 +1,9 @@
 @media (min-width:768px) {
-    main header .header-bottom .btn span   {
+    /* main header .header-bottom .btn span   {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
     main header .header-bottom .img-wrapper  {
         width: 30vw;
     }
@@ -20,9 +20,9 @@
     main header .header-bottom .btn-effect::after{
         display: none;
     }
-    main header .header-bottom .btn{
+    /* main header .header-bottom .btn{
         z-index: -9;
-    }
+    } */
     main header .header-bottom .btn-effect span {
         display: block;
         z-index: -9;
