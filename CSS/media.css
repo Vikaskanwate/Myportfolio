@@ -52,6 +52,9 @@
         z-index: 9999;
         top: -40px;
     }
+    main header .header-bottom {
+        margin-top: 2rem !important;
+    }
 }
 
 @media (width:1024px) {
