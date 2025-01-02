@@ -95,7 +95,7 @@ main header .header-bottom .img-wrapper img {
 }
 
 main header .header-bottom .btn-effect {
-    border: 1.5px solid rgb(0, 0, 0,.2);
+    border: 1.5px solid rgb(255,255,255,0.2);
     border-radius: 50px;
     position: relative;
     overflow: hidden;
@@ -128,38 +128,3 @@ main header .header-bottom .btn-effect:hover span{
     color: white;
 }
 
-@media (max-width:600px) {
-    main   {
-        position: relative;
-        z-index: 1;
-    }
-    
-    main header nav 
-    {
-        width: 100%;
-        position: relative;
-        z-index: 9999;
-        top: -20px;
-    }
-}
-
-/* only for tab */
-@media (width:768px) { 
-    main header nav 
-    {
-        width: 100%;
-        position: relative;
-        z-index: 9999;
-        top: -40px;
-    }
-}
-
-@media (width:1024px) {
-    main header nav 
-    {
-        width: 100%;
-        position: relative;
-        z-index: 9999;
-        top: -50px;
-    }
-}
